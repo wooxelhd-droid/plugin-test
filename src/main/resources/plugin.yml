@@ -1,0 +1,13 @@
+name: PunishSystem
+version: 2.1
+author: WooxelHD
+main: me.wooxel.punishPlugin.PunishPlugin
+api-version: 1.20
+commands:
+  punish:
+    usage: /punish <Spieler> <Grund>
+    description: Bestraft einen Spieler
+    permission: punish.use
+permissions:
+  punish.use:
+    default: op
